@@ -1,0 +1,32 @@
+{
+	"name": "CloneBot",
+	"description": "CloneBot",
+	"repository": "https://github.com/MsGsuite/CloneBot",
+	"keywords": ["Gclone","TG"],
+	"repository": "https://github.com/MsGsuite/CloneBot",
+        "website": "https://t.me/msgsuitechat",
+        "success_url": "https://github.com/MsGsuite/CloneBot/blob/master/README.md",
+	"env": {
+		"telegram_token": {
+			"description": "Obtenlo creando un bot con @Botfather."
+		},
+		"user_ids": {
+			"description": "Tu id de usuario (Si quieres agregar mas usuarios separalos con comas , ).El primero es el Admin"
+		},
+		"group_ids": {
+			"description": "Si lo quieres usar en un grupo agrega el ID. agrega -1 si no quieres usarlo en ninguno.",
+		"value": "-1"
+		},
+		 
+      "RCLONE_SYNC": {
+      "description": "Dejalo igual en true.",
+      "value": "true",
+      "required": true
+      },
+		"gclone_para_override": {
+			"description": "Leave this if you don't know how to use it",
+			"required": false
+		}
+	},
+    	"stack": "container"
+}
