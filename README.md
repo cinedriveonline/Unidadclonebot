@@ -23,7 +23,7 @@
 - Para un solo usuario ya que si agregas mas, usuarios ellos tienen que realizar las configuraciones posteriores que son : Agregar cuentas de servicio y configurar sus Directorios, y asi cada quien tener acceso al bot, con sus propias configuraciones, sin necesidad de tener las mismas cuentas de servicio, y seleccionando sus propios Team Drives, el problema y limitacion es que esta configuracion se hace una sola vez, si aumentas usuarios desde heroku, se resetea la configuracion de todos y se necesitara que vuelvan a iniciarla (agregar cuentas de servicio y los directorios o carpetas destino cada uno de los usuarios).
 - Al parecer los accesos directos en un directorio a copiar pueden causar problemas, por lo tanto no es recomendado para grupos telegram a menos que hagas agreges a todos los usuarios (ids) y ya no volver a tocar nada en heroku.
 
-⚫ Aqui el tutorial completo [Crear bot clonar carpetas Unidadclonebot](https://github.com/abdiasriver/CuentasGooglegroups) - [Aqui el video](https://www.youtube.com/c/UNIQedumx)
+⚫ Aqui el tutorial completo [Unidadclonebot Telegram bot para clonar directorios o Team drives completos Gdrive](https://uniq.edu.mx/unidadclonebot-telegram-bot-para-clonar-directorios-o-team-drives-completos-gdrive) - [Aqui el video](https://www.youtube.com/c/UNIQedumx)
 - [x] Crear bot en telegram y obtener "telegram_token"
 - [x] Obtener "user_ids" , nuestro ID telegram.
 - [x] Crear Grupo en telegram y Obtener "group_ids" 
@@ -49,7 +49,7 @@ _El grupo telegram puedes omitirlo si no vas a usar grupo telegram_
 ## Deploy a Heroku,Configurar las variables  y Activar Free dynos
 - Dale click ene este boton 
 
-<p><a href="https://heroku.com/deploy"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cinedriveonline/Unidadclonebot)
 
 
 - Ponle un nombre y Configura las variables con los datos anteriores
